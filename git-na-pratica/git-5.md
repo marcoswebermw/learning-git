@@ -17,7 +17,7 @@ git remote add origin https://github.com/usuario/repostiorio.git
   
 git pull origin master  
 
-// Baixa a branch develop de servidor ser ela existir.
+// Baixa a branch develop do servidor ser ela existir.
 // Não tenho certeza do que acontece quando ela não existe.
 // Talvez seja criada.
 git checkout -b develop origin/develop
@@ -47,7 +47,7 @@ git commit -m "Comitando na feature1."
 git checkout develop  
 
 git checkout -b feature2
-git commit -m "Comitando na feature1."
+git commit -m "Comitando na feature2."
 git checkout develop  
 
 // Atualiza com possíveis alterações remotas na develop e faz o merge
