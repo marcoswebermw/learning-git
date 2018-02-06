@@ -1,14 +1,13 @@
 ## Git Stash
   
 O `stash` existe para aquele momento que já existe um trabalho feito(modificado e rastreado pelo Git) porém inacabado, e existe 
-a necessidade de trabalhar com outra parte do projeto. Ou teríamos que comitar o que já foi feito, ou 
-descartar o trabalho feito.  
+a necessidade de trabalhar com outra parte do projeto. Ou teríamos que comitar o que já foi feito, ou descartar o trabalho feito.  
 
-Para resolver essa situação existe o `stash`. Ele permite que o trabalho feito 
-até o momento seja salvo e logo em seguida o repositório é limpo para trabalharmos com outras coisas. 
+Para resolver essa situação existe o `stash`. Ele permite que o trabalho feito até o momento seja salvo e logo em seguida o repositório é limpo para trabalharmos com outras coisas. 
+  
 Podem existir vários stashes feitos na pilha de trabalho inacabado, e é possível acessá-los individualmente.   
 
-Quando adequado poderemos recuperar o trabalho que ainda não tinhamos terminado na branch atual ou em uma nova branch.  
+Quando adequado, poderemos recuperar o trabalho que ainda não tinhamos terminado na branch atual ou em uma nova branch.  
   
 ### Salvando o trabalho atual (fazer o stash)
   
@@ -58,7 +57,6 @@ O stash será apagado e as alterações estarão na nova branch.
 `git stash branch nova_branch`  
   
 
-  
 ### Referências
   
 * [Documentação do livro do Git](https://git-scm.com/book/pt-br/v1/Ferramentas-do-Git-Fazendo-Stash);  
