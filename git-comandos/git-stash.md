@@ -37,6 +37,8 @@ Mesmo o stash sendo aplicado com o `git stash apply` ele continua na pilha de st
       
 `git stash drop stash@{2}`  
   
+`git stash drop 2`
+  
 ### Removendo todos stash da pilha de stash de uma só vez
   
 `git stash clear`  
